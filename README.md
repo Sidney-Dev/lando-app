@@ -2,25 +2,25 @@
 
 This instruction assumes that you have lando running on your development environment. That being said, please do the following commands:
 
-1 - git clone
-2 - cd lando-app
-3 - lando init
-4 - Enter
-5 - Select Drupal9
-6 - Type "web". Without the quotes
-7 - Enter the app name: "lando-app"
-8 - lando start
-9 - lando composer install
-10 - lando db-import db.sql.gz
+<p>1 - git clone</p>
+<p>2 - cd lando-app</p>
+<p>3 - lando init</p>
+<p>4 - Enter</p>
+<p>5 - Select Drupal9</p>
+<p>6 - Type "web". Without the quotes</p>
+<p>7 - Enter the app name: "lando-app"</p>
+<p>8 - lando start<p>
+<p>9 - lando composer install</p>
+<p>10 - lando db-import db.sql.gz</p>
 
-After the commands, get hold of your domain using the lando info command.
-Mine is: http://lando-app.lndo.site:8888/
+<p>After the commands, get hold of your domain using the lando info command.</p>
+<p>Mine is: http://lando-app.lndo.site:8888/</p>
 
-And Voalla
+<p>And Voalla</p>
 
-You should be able to use the article API
+<p>You should be able to use the article API</p>
 
-http://lando-app.lndo.site:8888/
+<p>http://lando-app.lndo.site:8888/<//p>
 
-And by getting hold of the UUID, you can also get a resource:
-https://example.org/jsonapi/node/article/{resourceId} where resourceId is the UUID
+<p>And by getting hold of the UUID, you can also get a resource:<p>
+<p>https://example.org/jsonapi/node/article/{resourceId} where resourceId is the UUID</p>
