@@ -27,6 +27,11 @@ This instruction assumes that you have lando running on your development environ
 <p>use <b>abad9cd6-7597-483d-a634-485a88cbcc55</b> to view an article</p>.
 <p><b>Example: </b>http://lando-app.lndo.site:8888/jsonapi/node/article/abad9cd6-7597-483d-a634-485a88cbcc55</p>
 
+<h3>More resource IDs</h3>
+<p>To get resourceId(UUID), visit http://lando-app.lndo.site:8888/devel/node/ID</p>
+<p>where ID is to be replaced by the node ID for the content you want</p>
+<p>Under the "load tab" expand the "variable", and check for the UUID available to you</p>
+
 <h3>Use Drush to login to the administration panel</h3>
 <p>Enter the following command to your console: <b>lando drush uli</b></p>
 <p>The console will give you: http://default/user/reset/1/1615298481/CasxZev_YacSD8SLXZU8Xdv1Tx4ZuISzLw8IyPorLs0/login </p>
