@@ -16,11 +16,13 @@ This instruction assumes that you have lando running on your development environ
 <p>After the commands, get hold of your domain using the lando info command.</p>
 <p>Mine is: http://lando-app.lndo.site:8888/</p>
 
+<h1>My domain is http://lando-app.lndo.site:8888 and so it should be yours. However, feel free to change it to whatever your domain url is whenever this domain is referenced anywhere in this documentation</h1>
+
 <p>And Voalla</p>
 
 <p>You should be able to use the article API</p>
 
-<p>http://lando-app.lndo.site:8888/<//p>
+<p>http://lando-app.lndo.site:8888/</p>
 
 <p>And by getting hold of the UUID, you can also get a resource:<p>
 <p>https://example.org/jsonapi/node/article/{resourceId} where resourceId is the UUID</p>
