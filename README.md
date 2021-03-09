@@ -24,3 +24,13 @@ This instruction assumes that you have lando running on your development environ
 
 <p>And by getting hold of the UUID, you can also get a resource:<p>
 <p>https://example.org/jsonapi/node/article/{resourceId} where resourceId is the UUID</p>
+<p>use <b>abad9cd6-7597-483d-a634-485a88cbcc55</b> to view an article</p>.
+<p><b>Example: </b>http://lando-app.lndo.site:8888/jsonapi/node/article/abad9cd6-7597-483d-a634-485a88cbcc55</p>
+
+<h3>Use Drush to login to the administration panel</h3>
+<p>lando drush uli</p>
+<p>The console will give you: http://default/user/reset/1/1615298481/CasxZev_YacSD8SLXZU8Xdv1Tx4ZuISzLw8IyPorLs0/login </p>
+<p>Replace the "default" string for your lando domain <br> and you should have something like this: http://lando-app.lndo.site:8888/user/reset/1/1615298481/CasxZev_YacSD8SLXZU8Xdv1Tx4ZuISzLw8IyPorLs0/login</p>
+
+<h3>Alternatively, you can login using the username and password</h3>
+<p>username: sidney-admin; password: 12345678</p>
